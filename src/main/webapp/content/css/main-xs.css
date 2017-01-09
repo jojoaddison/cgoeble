@@ -1,0 +1,160 @@
+
+@media screen and (max-width: 480px) {
+    body{
+        background: #ffffff;
+    }
+
+    .navbar{
+        width: 100%;
+        max-height: 50px !important;
+        background: transparent !important;
+    }
+
+    .navbar-header{
+        position: relative;
+        top: -15px;
+        height: 45px;
+    }
+
+    .menubar {
+        height:60px !important;
+        background: url("../img/menubar-iphone.png") no-repeat center top;
+        background-size: contain;
+        min-width: 375px;
+    }
+
+    .menubar-items {
+        min-width: 100% !important;
+        height: 70px !important;
+        background: transparent;
+        position: relative;
+        top: -10px;
+        left: 0;
+        margin-top: -5px;
+    }
+    .menu-items {
+        background-color: #ffffff;
+        position: relative;
+        top: -23px;
+        left: -8px;
+        z-index: 201;
+        max-width: 200px;
+        display: block;
+        float: left;
+        margin-top: -10px;
+        margin-left: -9px;
+        margin-bottom: 20px;
+    }
+
+    #close-btn {
+        height: auto;
+        width: 25px;
+    }
+
+    .home {
+        background: #fff;
+        position: relative;
+        top: 60px;
+        min-width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .design-column-1 {
+        display: inline-block;
+        z-index: 101;
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+    .design-column-2 {
+        display: inline-block;
+        z-index:201;
+        margin:0;
+        width: 100%;
+        height: auto;
+    }
+
+    .design-column-3 {
+        display: inline-block;
+        z-index: 101;
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .mobile-only-content{
+        display: block !important;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .menubar {
+        height:60px !important;
+        background: url("../img/menubar-iphone.png") no-repeat center top;
+        background-size: contain;
+        min-width: 415px;
+    }
+    .menu-items {
+        background-color: #ffffff;
+        position: relative;
+        top: -15px;
+        left: -10px;
+        z-index: 201;
+        max-width: 200px;
+        display: block;
+        float: left;
+        margin-top: -10px;
+        margin-left: -9px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .menubar {
+        height:60px !important;
+        background: url("../img/menubar-iphone.png") no-repeat center top;
+        background-size: contain;
+        min-width: 375px;
+    }
+    .menu-items {
+        background-color: #ffffff;
+        position: relative;
+        top: -15px;
+        left: -10px;
+        z-index: 201;
+        max-width: 200px;
+        display: block;
+        float: left;
+        margin-top: -10px;
+        margin-left: -9px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+
+    .menubar {
+        height:60px !important;
+        background: url("../img/menubar-iphone.png") no-repeat center top;
+        background-size: contain;
+        min-width: 320px;
+    }
+    .menu-items {
+        background-color: #ffffff;
+        position: relative;
+        top: -15px;
+        left: -8px;
+        z-index: 201;
+        max-width: 200px;
+        display: block;
+        float: left;
+        margin-top: -10px;
+        margin-left: -9px;
+        margin-bottom: 20px;
+    }
+}

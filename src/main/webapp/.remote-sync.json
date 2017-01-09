@@ -1,0 +1,15 @@
+{
+  "transport": "ftp",
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "cgoebl.at",
+  "port": "21",
+  "target": "/html/apps/wordpress-47250",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "44144ftp11",
+  "password": "5qlo9f24"
+}

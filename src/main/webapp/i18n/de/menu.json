@@ -1,0 +1,45 @@
+{
+    "cgserverApp": {
+        "menu" : {
+            "home": {
+                "title": "Menus",
+                "createLabel": "Menu erstellen",
+                "createOrEditLabel": "Menu erstellen oder bearbeiten",
+                "search": "Suche nach Menu"
+            },
+            "created": "Menu erstellt mit ID {{ param }}",
+            "updated": "Menu aktualisiert mit ID {{ param }}",
+            "deleted": "Menu gelöscht mit ID {{ param }}",
+            "delete": {
+                "question": "Soll Menu {{ id }} wirklich dauerhaft gelöscht werden?"
+            },
+            "detail": {
+                "title": "Menu"
+            },
+            "name": "Name",
+            "href": "HREF",
+            "data": [
+                {
+                    "id": 1,
+                    "name": "Werke",
+                    "href": "work"
+                },
+                {
+                    "id": 2,
+                    "name": "Über mich",
+                    "href": "about"
+                },
+                {
+                    "id": 3,
+                    "name": "Kontakt",
+                    "href": "contact"
+                },
+                {
+                    "id": 4,
+                    "name": "Impressum",
+                    "href": "impressum"
+                }
+            ]
+        }
+    }
+}

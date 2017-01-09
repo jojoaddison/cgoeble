@@ -1,0 +1,162 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AmaticSC-Bold
+FamilyName:Amatic SC
+StyleName:Bold
+MenuName:Amatic SC
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Amatic SC Bold
+WritingScript:Roman
+OutlineFileName:\AmaticSC-Bold.ttf
+DataFormat:sfntData
+FileLength:36492
+FileModTime:1439300214
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AmaticSC-Regular
+FamilyName:Amatic SC
+StyleName:Regular
+MenuName:Amatic SC
+StyleBits:0
+WeightClass:400
+WidthClass:3
+AngleClass:0
+FullName:Amatic SC
+WritingScript:Roman
+OutlineFileName:\AmaticSC-Regular.ttf
+DataFormat:sfntData
+FileLength:38928
+FileModTime:1439300214
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ChameleonSketch-Hatch
+FamilyName:Chameleon Sketch
+StyleName:Hatch
+MenuName:Chameleon Sketch
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Chameleon Sketch Hatch
+WritingScript:Roman
+OutlineFileName:\Chameleon_Sketch_Hatch_2.000.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:482024
+FileModTime:1444628794
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DroidSerif-Bold
+FamilyName:Droid Serif
+StyleName:Bold
+MenuName:Droid Serif
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Droid Serif Bold
+WritingScript:Roman
+OutlineFileName:\DroidSerif-Bold.ttf
+DataFormat:sfntData
+FileLength:48880
+FileModTime:1439300214
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:DroidSerif
+FamilyName:Droid Serif
+StyleName:Regular
+MenuName:Droid Serif
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Droid Serif
+WritingScript:Roman
+OutlineFileName:\DroidSerif.ttf
+DataFormat:sfntData
+FileLength:43648
+FileModTime:1439300214
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Friendsdavinci
+FamilyName:Friends da vinci
+StyleName:Regular
+MenuName:Friends da vinci
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Friends da vinci
+WritingScript:Roman
+OutlineFileName:\Friends da vinci.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:244372
+FileModTime:1458362350
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Hysteria
+FamilyName:Hysteria
+StyleName:Regular
+MenuName:Hysteria
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Hysteria
+WritingScript:Roman
+OutlineFileName:\Hysteria Brush.ttf
+DataFormat:sfntData
+FileLength:359436
+FileModTime:1473287374
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:217280
+FileModTime:1406303519
+DesignSize:110
+%EndFont
+

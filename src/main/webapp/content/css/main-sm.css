@@ -1,0 +1,166 @@
+
+@media screen and (max-width: 780px) {
+    body{
+        background: #ffffff;
+    }
+
+    .navbar{
+        width: 99%;
+        max-height: 50px !important;
+        background: transparent !important;
+    }
+
+    .navbar-header{
+        position: relative;
+        top: -5px;
+        height: 50px;
+    }
+
+    .menubar {
+        height:50px !important;
+        background: url("../img/menueleisteoben.jpg") no-repeat center top;
+        background-size: contain;
+        min-width: 775px;
+    }
+
+    .menubar-items {
+        min-width: 100% !important;
+        height: 60px !important;
+        background: transparent;
+        position: relative;
+        top: -10px;
+        left: 0;
+        margin-top: -5px;
+    }
+    .menu-items {
+        background-color: #ffffff;
+        position: relative;
+        top: -8px;
+        left: -10px;
+        z-index: 201;
+        max-width: 200px;
+        display: block;
+        float: left;
+        margin-top: -10px;
+        margin-left: -9px;
+        margin-bottom: 20px;
+    }
+
+    #close-btn {
+        height: auto;
+        width: 25px;
+    }
+
+    .home {
+        background: #fff;
+        position: relative;
+        top: 50px;
+        min-width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .mobile-only-content{
+        display: block !important;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .menubar {
+        height: 60px !important;
+        background: url("../img/menueleisteoben.jpg") no-repeat center top;
+        background-size: contain;
+        min-width: 730px;
+    }
+    .menu-items {
+        background-color: #ffffff;
+        position: relative;
+        top: -15px;
+        left: -10px;
+        z-index: 201;
+        max-width: 200px;
+        display: block;
+        float: left;
+        margin-top: -10px;
+        margin-left: -9px;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 680px) {
+    .menubar {
+        height: 50px !important;
+        background: url("../img/menueleisteoben.jpg") no-repeat center top;
+        background-size: contain;
+        min-width: 675px;
+    }
+    .menu-items {
+        background-color: #ffffff;
+        position: relative;
+        top: -15px;
+        left: -10px;
+        z-index: 201;
+        max-width: 200px;
+        display: block;
+        float: left;
+        margin-top: -10px;
+        margin-left: -9px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    body{
+        background: #ffffff;
+    }
+    .menubar {
+        height: 50px !important;
+        background: url("../img/menueleisteoben.jpg") no-repeat center top;
+        background-size: contain;
+        min-width: 575px;
+    }
+    .menu-items {
+        background-color: #ffffff;
+        position: relative;
+        top: -25px;
+        left: -10px;
+        z-index: 201;
+        max-width: 200px;
+        display: block;
+        float: left;
+        margin-top: -10px;
+        margin-left: -9px;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 540px) {
+    body{
+        background: #ffffff;
+    }
+    .menubar {
+        height: 50px !important;
+        background: url("../img/menueleisteoben.jpg") no-repeat center top;
+        background-size: contain;
+        min-width: 530px;
+        position: relative;
+        top: 5px;
+    }
+    .menu-items {
+        background-color: #ffffff;
+        position: relative;
+        top: -20px;
+        left: -8px;
+        z-index: 201;
+        max-width: 200px;
+        display: block;
+        float: left;
+        margin-top: -10px;
+        margin-left: -9px;
+        margin-bottom: 20px;
+    }
+}

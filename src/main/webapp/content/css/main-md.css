@@ -1,0 +1,61 @@
+
+@media screen and (max-width: 1025px) {
+    body{
+        background: #ffffff;
+    }
+
+    .navbar{
+        max-height: 70px !important;
+        background: transparent !important;
+    }
+
+    .menubar {
+        height:70px !important;
+        background: url("../img/menueleisteoben.jpg") no-repeat center top;
+        background-size: contain;
+        min-width: 1024px;
+    }
+
+    .menubar-items {
+        min-width: 100% !important;
+        height: 70px !important;
+        background: transparent;
+        position: relative;
+        top: -5px;
+        left: 0;
+    }
+    .menu-items {
+        background-color: #ffffff;
+        position: relative;
+        top: -5px;
+        left: -10px;
+        z-index: 201;
+        max-width: 200px;
+        display: block;
+        float: left;
+        margin-top: -10px;
+        margin-left: -9px;
+        margin-bottom: 20px;
+    }
+
+    #close-btn {
+        height: auto;
+        width: 25px;
+    }
+
+    .home {
+        background: #fff;
+        position: relative;
+        top: 70px;
+        min-width: 100%;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    .mobile-only-content{
+        display: block !important;
+        width: 100%;
+        text-align: center;
+    }
+
+}
