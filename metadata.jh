@@ -1,0 +1,10 @@
+entity Media {}
+
+
+ entity Content {
+     text String required
+ }
+
+ relationship OneToMany {
+     Content{media} to Media
+ }

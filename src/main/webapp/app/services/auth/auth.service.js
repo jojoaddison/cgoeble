@@ -62,6 +62,7 @@
                     $state.go('home');
                 }
 
+
                 // recover and clear previousState after external login redirect (e.g. oauth2)
                 if (isAuthenticated && !$rootScope.fromState.name && getPreviousState()) {
                     var previousState = getPreviousState();
@@ -73,7 +74,7 @@
                     if (isAuthenticated) {
                         console.log("access denied. authorization failed.");
                         // user is signed in but not authorized for desired state
-                        $state.go('accessdenied');
+                        $state.go('home');
                     }
                     else {
                         console.log("access denied. authentication failed.");
@@ -81,8 +82,13 @@
                         // send them to the login service, so you can return them when you're done
                         storePreviousState($rootScope.toState.name, $rootScope.toStateParams);
 
+                        //Attempt a token reset if the token is invalid
+                        if(!AuthServerProvider.hasValidToken()){
+                            console.log("requested a new token.");
+                            Account.get();
+                        }
                         // now, send them to the signin state so they can log in
-                        $state.go('accessdenied').then(function() {
+                        $state.go('home').then(function() {
                             LoginService.open();
                         });
                     }

@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 760px) and (max-width: 800px) {
     body{
         background: #ffffff;
     }
@@ -16,11 +16,17 @@
         height: 50px;
     }
 
+    .container{
+      width: 800px;
+      padding: 0;
+    }
+
     .menubar {
         height:50px !important;
-        background: url("../img/menueleisteoben.jpg") no-repeat center top;
+        background: url("../img/menueleisteoben.jpg") no-repeat center center;
         background-size: contain;
-        min-width: 775px;
+        width: 806px;
+        margin-left: -5px;
     }
 
     .menubar-items {
@@ -65,9 +71,18 @@
         width: 100%;
         text-align: center;
     }
+
+    .schamanismus-mobile-link{
+        position: relative; top: 450px; left: 400px;
+        width: 250px;
+        height: 200px;
+    }
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (min-width: 700px)  and (max-width: 740px) {
+  body{
+      background: #ffffff;
+  }
     .menubar {
         height: 60px !important;
         background: url("../img/menueleisteoben.jpg") no-repeat center top;
@@ -90,7 +105,10 @@
 }
 
 
-@media screen and (max-width: 680px) {
+@media screen and (min-width: 650px) and (max-width: 699px) {
+  body{
+      background: #ffffff;
+  }
     .menubar {
         height: 50px !important;
         background: url("../img/menueleisteoben.jpg") no-repeat center top;
@@ -112,7 +130,33 @@
     }
 }
 
-@media screen and (max-width: 580px) {
+
+@media screen and (min-width: 600px) and (max-width: 649px) {
+  body{
+      background: #ffffff;
+  }
+    .menubar {
+        height: 50px !important;
+        background: url("../img/menueleisteoben.jpg") no-repeat center top;
+        background-size: contain;
+        min-width: 625px;
+    }
+    .menu-items {
+        background-color: #ffffff;
+        position: relative;
+        top: -15px;
+        left: -10px;
+        z-index: 201;
+        max-width: 200px;
+        display: block;
+        float: left;
+        margin-top: -10px;
+        margin-left: -9px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 570px) and (max-width: 599px) {
     body{
         background: #ffffff;
     }
@@ -138,7 +182,7 @@
 }
 
 
-@media screen and (max-width: 540px) {
+@media screen and (min-width: 500px) and (max-width: 569px) {
     body{
         background: #ffffff;
     }
@@ -147,8 +191,6 @@
         background: url("../img/menueleisteoben.jpg") no-repeat center top;
         background-size: contain;
         min-width: 530px;
-        position: relative;
-        top: 5px;
     }
     .menu-items {
         background-color: #ffffff;

@@ -57,4 +57,8 @@ public class Authority implements Serializable {
             "name='" + name + '\'' +
             "}";
     }
+
+	public String getId() {
+		return name;
+	}
 }

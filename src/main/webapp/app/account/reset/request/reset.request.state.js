@@ -15,6 +15,11 @@
                 authorities: []
             },
             views: {
+                'navbar@': {
+                    templateUrl: 'app/admin/dashboard/header.html',
+                    controller: 'DashboardHeaderController',
+                    controllerAs: 'vm'
+                },
                 'content@': {
                     templateUrl: 'app/account/reset/request/reset.request.html',
                     controller: 'RequestResetController',

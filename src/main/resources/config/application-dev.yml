@@ -37,7 +37,7 @@ spring:
         cache: false
 
 server:
-    port: 8080
+    port: 8888
 
 # ===================================================================
 # JHipster specific properties
@@ -50,7 +50,7 @@ jhipster:
             key: 8845f2ae601b55b7c5b9c227eaa3439ff7b1788c
     mail: # specific JHipster mail property, for standard properties see MailProperties
         from: cgserver@localhost
-        baseUrl: http://127.0.0.1:8080
+        baseUrl: http://127.0.0.1:8888
     metrics: # DropWizard Metrics configuration, used by MetricsConfiguration
         jmx.enabled: true
         graphite:

@@ -5,12 +5,12 @@
         .module('cgserverApp')
         .controller('BuonjiornoController', BuonjiornoController);
 
-    BuonjiornoController.$inject = ['$rootScope','$scope', 'Principal', 'LoginService', '$state', 'UserRepo','$window'];
+    BuonjiornoController.$inject = ['$scope'];
 
-    function BuonjiornoController ($rootScope, $scope, Principal, LoginService, $state, UserRepo, $window) {
+    function BuonjiornoController ($scope) {
         var vm = this;
         var videoBox = angular.element("#video-box");
-        var conceptBox = angular.element("#conceptBox");
+        //var conceptBox = angular.element("#conceptBox");
         var conceptView = angular.element("#conceptView");
         vm.conceptShowing = false;
 

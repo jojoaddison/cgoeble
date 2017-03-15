@@ -22,6 +22,7 @@ import java.io.File;
 import java.nio.file.Paths;
 import java.util.*;
 import javax.inject.Inject;
+
 import javax.servlet.*;
 
 /**
@@ -143,6 +144,7 @@ public class WebConfigurer implements ServletContextInitializer, EmbeddedServlet
         log.debug("Registering CORS filter");
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         CorsConfiguration config = jHipsterProperties.getCors();
+        log.debug(String.valueOf(config.getAllowedOrigins()));
         source.registerCorsConfiguration("/api/**", config);
         source.registerCorsConfiguration("/v2/api-docs", config);
         source.registerCorsConfiguration("/oauth/**", config);

@@ -17,6 +17,11 @@
                 pageTitle: 'userManagement.home.title'
             },
             views: {
+                'navbar@': {
+                    templateUrl: 'app/admin/dashboard/header.html',
+                    controller: 'DashboardHeaderController',
+                    controllerAs: 'vm'
+                },
                 'content@': {
                     templateUrl: 'app/admin/user-management/user-management.html',
                     controller: 'UserManagementController',
@@ -55,6 +60,11 @@
                 pageTitle: 'user-management.detail.title'
             },
             views: {
+                'navbar@': {
+                    templateUrl: 'app/admin/dashboard/header.html',
+                    controller: 'DashboardHeaderController',
+                    controllerAs: 'vm'
+                },
                 'content@': {
                     templateUrl: 'app/admin/user-management/user-management-detail.html',
                     controller: 'UserManagementDetailController',

@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 450px) and (max-width: 480px) {
     body{
         background: #ffffff;
     }
@@ -17,7 +17,7 @@
     }
 
     .menubar {
-        height:60px !important;
+        height: 50px !important;
         background: url("../img/menubar-iphone.png") no-repeat center top;
         background-size: contain;
         min-width: 375px;
@@ -36,7 +36,7 @@
         background-color: #ffffff;
         position: relative;
         top: -23px;
-        left: -8px;
+        left: -10px;
         z-index: 201;
         max-width: 200px;
         display: block;
@@ -90,8 +90,10 @@
     }
 }
 
-@media screen and (max-width: 420px) {
-
+@media screen and (min-width: 400px) and (max-width: 449px) {
+  body{
+      background: #ffffff;
+  }
     .menubar {
         height:60px !important;
         background: url("../img/menubar-iphone.png") no-repeat center top;
@@ -113,8 +115,10 @@
     }
 }
 
-@media screen and (max-width: 380px) {
-
+@media screen and (min-width: 350px) and (max-width: 399px) {
+  body{
+      background: #ffffff;
+  }
     .menubar {
         height:60px !important;
         background: url("../img/menubar-iphone.png") no-repeat center top;
@@ -136,19 +140,21 @@
     }
 }
 
-@media screen and (max-width: 340px) {
-
+@media screen and (max-width: 349px) {
+  body{
+      background: #ffffff;
+  }
     .menubar {
-        height:60px !important;
+        height:40px !important;
         background: url("../img/menubar-iphone.png") no-repeat center top;
         background-size: contain;
-        min-width: 320px;
+        min-width: 325px;
     }
     .menu-items {
         background-color: #ffffff;
         position: relative;
-        top: -15px;
-        left: -8px;
+        top: -35px;
+        left: -10px;
         z-index: 201;
         max-width: 200px;
         display: block;

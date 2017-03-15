@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 1025px) {
+@media screen and (min-width: 1000px) and (max-width: 1049px) {
     body{
         background: #ffffff;
     }
@@ -57,5 +57,49 @@
         width: 100%;
         text-align: center;
     }
+    .schamanismus-desktop-link{
+        position: relative; top: 450px; left: 400px;
+        width: 250px;
+        height: 200px;
+    }
 
+}
+@media screen and (min-width: 950px) and (max-width: 999px) {
+
+      .menubar {
+          height:70px !important;
+          background: url("../img/menueleisteoben.jpg") no-repeat center top;
+          background-size: contain;
+          min-width: 975px;
+      }
+}
+
+@media screen and (min-width: 900px) and (max-width: 949px) {
+
+      .menubar {
+          height:70px !important;
+          background: url("../img/menueleisteoben.jpg") no-repeat center top;
+          background-size: contain;
+          min-width: 925px;
+      }
+}
+
+@media screen and (min-width: 850px) and (max-width: 899px) {
+
+      .menubar {
+          height:70px !important;
+          background: url("../img/menueleisteoben.jpg") no-repeat center top;
+          background-size: contain;
+          min-width: 875px;
+      }
+}
+
+@media screen and (min-width: 801px) and (max-width: 849px) {
+
+      .menubar {
+          height:70px !important;
+          background: url("../img/menueleisteoben.jpg") no-repeat center top;
+          background-size: contain;
+          min-width: 825px;
+      }
 }

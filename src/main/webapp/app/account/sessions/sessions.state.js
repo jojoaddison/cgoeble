@@ -16,6 +16,11 @@
                 pageTitle: 'global.menu.account.sessions'
             },
             views: {
+                'navbar@': {
+                    templateUrl: 'app/admin/dashboard/header.html',
+                    controller: 'DashboardHeaderController',
+                    controllerAs: 'vm'
+                },
                 'content@': {
                     templateUrl: 'app/account/sessions/sessions.html',
                     controller: 'SessionsController',

@@ -16,6 +16,11 @@
                 pageTitle: 'register.title'
             },
             views: {
+                'navbar@': {
+                    templateUrl: 'app/admin/dashboard/header.html',
+                    controller: 'DashboardHeaderController',
+                    controllerAs: 'vm'
+                },
                 'content@': {
                     templateUrl: 'app/account/register/register.html',
                     controller: 'RegisterController',

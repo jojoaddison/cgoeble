@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>cgserver</title>
-    <meta name="description" content="">
+    <title>Christina Goebl - Visual Arts</title>
+    <meta name="description" content="art, design, interiors and many more.">
     <meta name="google" value="notranslate">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -15,9 +15,11 @@
     <link rel="stylesheet" href="bower_components/bootstrap-material-design/dist/css/ripples.css">
     <link rel="stylesheet" href="bower_components/angular-loading-bar/build/loading-bar.css">
     <link rel="stylesheet" href="bower_components/angular-material/angular-material.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
     <!-- endinject -->
     <!-- endbuild -->
     <!-- build:css content/css/main.css -->
+    <link rel="stylesheet" href="content/css/dashboard.css">
     <link rel="stylesheet" href="content/css/main.css">
     <link rel="stylesheet" href="content/css/main-md.css">
     <link rel="stylesheet" href="content/css/main-sm.css">
@@ -105,13 +107,97 @@
     <script src="app/layouts/error/error.state.js"></script>
     <script src="app/home/home.state.js"></script>
     <script src="app/home/home.controller.js"></script>
+    <script src="app/entities/type/type-dialog.controller.js"></script>
+    <script src="app/entities/type/type-detail.controller.js"></script>
+    <script src="app/entities/type/type-delete-dialog.controller.js"></script>
+    <script src="app/entities/type/type.state.js"></script>
+    <script src="app/entities/type/type.service.js"></script>
+    <script src="app/entities/type/type.controller.js"></script>
+    <script src="app/entities/subscriber/subscriber-dialog.controller.js"></script>
+    <script src="app/entities/subscriber/subscriber-detail.controller.js"></script>
+    <script src="app/entities/subscriber/subscriber-delete-dialog.controller.js"></script>
+    <script src="app/entities/subscriber/subscriber.state.js"></script>
+    <script src="app/entities/subscriber/subscriber.service.js"></script>
+    <script src="app/entities/subscriber/subscriber.controller.js"></script>
+    <script src="app/entities/social-link/social-link-dialog.controller.js"></script>
+    <script src="app/entities/social-link/social-link-detail.controller.js"></script>
+    <script src="app/entities/social-link/social-link-delete-dialog.controller.js"></script>
+    <script src="app/entities/social-link/social-link.state.js"></script>
+    <script src="app/entities/social-link/social-link.service.js"></script>
+    <script src="app/entities/social-link/social-link.controller.js"></script>
+    <script src="app/entities/page/page-dialog.controller.js"></script>
+    <script src="app/entities/page/page-detail.controller.js"></script>
+    <script src="app/entities/page/page-delete-dialog.controller.js"></script>
+    <script src="app/entities/page/page.state.js"></script>
+    <script src="app/entities/page/page.service.js"></script>
+    <script src="app/entities/page/page.controller.js"></script>
+    <script src="app/entities/nav-bar/nav-bar-dialog.controller.js"></script>
+    <script src="app/entities/nav-bar/nav-bar-detail.controller.js"></script>
+    <script src="app/entities/nav-bar/nav-bar-delete-dialog.controller.js"></script>
+    <script src="app/entities/nav-bar/nav-bar.state.js"></script>
+    <script src="app/entities/nav-bar/nav-bar.service.js"></script>
+    <script src="app/entities/nav-bar/nav-bar.controller.js"></script>
+    <script src="app/entities/nav/nav-dialog.controller.js"></script>
+    <script src="app/entities/nav/nav-detail.controller.js"></script>
+    <script src="app/entities/nav/nav-delete-dialog.controller.js"></script>
+    <script src="app/entities/nav/nav.state.js"></script>
+    <script src="app/entities/nav/nav.service.js"></script>
+    <script src="app/entities/nav/nav.controller.js"></script>
+    <script src="app/entities/metadata/metadata-dialog.controller.js"></script>
+    <script src="app/entities/metadata/metadata-detail.controller.js"></script>
+    <script src="app/entities/metadata/metadata-delete-dialog.controller.js"></script>
+    <script src="app/entities/metadata/metadata.state.js"></script>
+    <script src="app/entities/metadata/metadata.service.js"></script>
+    <script src="app/entities/metadata/metadata.controller.js"></script>
     <script src="app/entities/menu/menu-dialog.controller.js"></script>
     <script src="app/entities/menu/menu-detail.controller.js"></script>
     <script src="app/entities/menu/menu-delete-dialog.controller.js"></script>
     <script src="app/entities/menu/menu.state.js"></script>
     <script src="app/entities/menu/menu.service.js"></script>
     <script src="app/entities/menu/menu.controller.js"></script>
+    <script src="app/entities/media/media-dialog.controller.js"></script>
+    <script src="app/entities/media/media-detail.controller.js"></script>
+    <script src="app/entities/media/media-delete-dialog.controller.js"></script>
+    <script src="app/entities/media/media.state.js"></script>
+    <script src="app/entities/media/media.service.js"></script>
+    <script src="app/entities/media/media.controller.js"></script>
+    <script src="app/entities/logo/logo-dialog.controller.js"></script>
+    <script src="app/entities/logo/logo-detail.controller.js"></script>
+    <script src="app/entities/logo/logo-delete-dialog.controller.js"></script>
+    <script src="app/entities/logo/logo.state.js"></script>
+    <script src="app/entities/logo/logo.service.js"></script>
+    <script src="app/entities/logo/logo.controller.js"></script>
+    <script src="app/entities/link/link-dialog.controller.js"></script>
+    <script src="app/entities/link/link-detail.controller.js"></script>
+    <script src="app/entities/link/link-delete-dialog.controller.js"></script>
+    <script src="app/entities/link/link.state.js"></script>
+    <script src="app/entities/link/link.service.js"></script>
+    <script src="app/entities/link/link.controller.js"></script>
+    <script src="app/entities/gallery/gallery-dialog.controller.js"></script>
+    <script src="app/entities/gallery/gallery-detail.controller.js"></script>
+    <script src="app/entities/gallery/gallery-delete-dialog.controller.js"></script>
+    <script src="app/entities/gallery/gallery.state.js"></script>
+    <script src="app/entities/gallery/gallery.service.js"></script>
+    <script src="app/entities/gallery/gallery.controller.js"></script>
     <script src="app/entities/entity.state.js"></script>
+    <script src="app/entities/content/content-dialog.controller.js"></script>
+    <script src="app/entities/content/content-detail.controller.js"></script>
+    <script src="app/entities/content/content-delete-dialog.controller.js"></script>
+    <script src="app/entities/content/content.state.js"></script>
+    <script src="app/entities/content/content.service.js"></script>
+    <script src="app/entities/content/content.controller.js"></script>
+    <script src="app/entities/article/article-dialog.controller.js"></script>
+    <script src="app/entities/article/article-detail.controller.js"></script>
+    <script src="app/entities/article/article-delete-dialog.controller.js"></script>
+    <script src="app/entities/article/article.state.js"></script>
+    <script src="app/entities/article/article.service.js"></script>
+    <script src="app/entities/article/article.controller.js"></script>
+    <script src="app/entities/album/album-dialog.controller.js"></script>
+    <script src="app/entities/album/album-detail.controller.js"></script>
+    <script src="app/entities/album/album-delete-dialog.controller.js"></script>
+    <script src="app/entities/album/album.state.js"></script>
+    <script src="app/entities/album/album.service.js"></script>
+    <script src="app/entities/album/album.controller.js"></script>
     <script src="app/components/util/truncate-words.filter.js"></script>
     <script src="app/components/util/truncate-characters.filter.js"></script>
     <script src="app/components/util/sort-by.directive.js"></script>
@@ -143,6 +229,7 @@
     <script src="app/blocks/interceptor/notification.interceptor.js"></script>
     <script src="app/blocks/interceptor/errorhandler.interceptor.js"></script>
     <script src="app/blocks/interceptor/auth-expired.interceptor.js"></script>
+    <script src="app/blocks/interceptor/api.interceptor.js"></script>
     <script src="app/blocks/handlers/translation.handler.js"></script>
     <script src="app/blocks/handlers/state.handler.js"></script>
     <script src="app/blocks/config/uib-pagination.config.js"></script>
@@ -172,9 +259,19 @@
     <script src="app/admin/health/health.modal.controller.js"></script>
     <script src="app/admin/health/health.controller.js"></script>
     <script src="app/admin/docs/docs.state.js"></script>
+    <script src="app/admin/dashboard/state.js"></script>
+    <script src="app/admin/dashboard/sidebar/sidebar.js"></script>
+    <script src="app/admin/dashboard/service.js"></script>
+    <script src="app/admin/dashboard/controller.js"></script>
     <script src="app/admin/configuration/configuration.state.js"></script>
     <script src="app/admin/configuration/configuration.service.js"></script>
     <script src="app/admin/configuration/configuration.controller.js"></script>
+    <script src="app/admin/authority/authority-dialog.controller.js"></script>
+    <script src="app/admin/authority/authority-detail.controller.js"></script>
+    <script src="app/admin/authority/authority-delete-dialog.controller.js"></script>
+    <script src="app/admin/authority/authority.state.js"></script>
+    <script src="app/admin/authority/authority.service.js"></script>
+    <script src="app/admin/authority/authority.controller.js"></script>
     <script src="app/admin/audits/audits.state.js"></script>
     <script src="app/admin/audits/audits.service.js"></script>
     <script src="app/admin/audits/audits.controller.js"></script>

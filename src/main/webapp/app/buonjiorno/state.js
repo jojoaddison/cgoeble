@@ -98,11 +98,6 @@
                   templateUrl: 'app/buonjiorno/login.html',
                   controller: 'CGLoginController',
                   controllerAs: 'vm'
-              },
-              'footer@': {
-                  templateUrl: 'app/home/footer.html',
-                  controller: 'HomeController',
-                  controllerAs: 'vm'
               }
           },
           resolve: {

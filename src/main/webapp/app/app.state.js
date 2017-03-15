@@ -21,7 +21,7 @@
                 authorize: ['Auth',
                     function (Auth) {
                         console.log("--AUTH--");
-                        Auth.reLogin();
+                            Auth.reLogin();
                         return Auth.authorize();
                     }
                 ],

@@ -16,6 +16,11 @@
                 pageTitle: 'health.title'
             },
             views: {
+                'navbar@': {
+                    templateUrl: 'app/admin/dashboard/header.html',
+                    controller: 'DashboardHeaderController',
+                    controllerAs: 'vm'
+                },
                 'content@': {
                     templateUrl: 'app/admin/health/health.html',
                     controller: 'JhiHealthCheckController',

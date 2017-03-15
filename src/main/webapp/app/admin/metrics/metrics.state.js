@@ -16,6 +16,11 @@
                 pageTitle: 'metrics.title'
             },
             views: {
+                'navbar@': {
+                    templateUrl: 'app/admin/dashboard/header.html',
+                    controller: 'DashboardHeaderController',
+                    controllerAs: 'vm'
+                },
                 'content@': {
                     templateUrl: 'app/admin/metrics/metrics.html',
                     controller: 'JhiMetricsMonitoringController',

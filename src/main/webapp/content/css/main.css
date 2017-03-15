@@ -15,8 +15,9 @@
     src: url('../fonts/Hysteria-Brush.ttf') format('truetype');
 }
 body {
-    background: #dddddd;
-    font-family: Amatic, "Droid Serif", "Chameleon Sketch", Hysteria;
+    background: transparent;
+    background-image: url("../img/punktis.png");
+    font-family: Arial, Helvetica, sans-serif, Amatic, "Droid Serif", "Chameleon Sketch", Hysteria;
     color: #333;
 }
 
@@ -113,6 +114,9 @@ p[class=droid-serif]{
 .row {
     min-width: 100% !important;
 }
+a, a:hover, a:focus{
+    color: #000;
+}
 /* ==========================================================================
 Hide ng-cloak on page load, https://docs.angularjs.org/api/ng/directive/ngCloak
 ========================================================================== */
@@ -131,12 +135,29 @@ Hide ng-cloak on page load, https://docs.angularjs.org/api/ng/directive/ngCloak
     max-height: 80px !important;
     background: transparent !important;
 }
+
+
+nav{
+  margin-left: auto;
+  margin-right: auto;
+}
 .menubar {
-    max-width: 1272px !important;
-    height: 90px !important;
+    height: 80px !important;
     background: url("../img/menueleisteoben.jpg") no-repeat center top;
     background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+@media screen and (min-width: 1026px) {
+    .menubar{
+      width: 1140px !important;
+    }
+    .container{
+      width: 1170px;
+    }
+}
+
 .menubar-items {
     min-width: 100% !important;
     height: 100px !important;
@@ -148,7 +169,7 @@ Hide ng-cloak on page load, https://docs.angularjs.org/api/ng/directive/ngCloak
 .menu-items {
     background-color: #ffffff;
     position: relative;
-    top: 15px;
+    top: 5px;
     left: -10px;
     z-index: 201;
     max-width: 200px;
@@ -162,23 +183,7 @@ body .well, .container .well, .container-fluid .well,
 body .jumbotron, .container .jumbotron, .container-fluid .jumbotron {
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
 }
-@media screen and (min-width: 2400px) {
-    .container {
-        width: 2300px;
-    }
-}
 
-@media (min-width: 1920px) {
-    .container {
-        width: 1920px;
-    }
-}
-
-@media (min-width: 1400px) {
-    .container {
-        width: 1300px;
-    }
-}
 a, a:hover, a:focus{
     text-decoration: none !important;
 }
@@ -199,28 +204,6 @@ a, a:hover, a:focus{
     width: 30px;
 }
 
-/*
-.mobile-only-content{
-  display: none;
-  max-width: 0;
-  max-height: 0;
-}
-.mobile-only-content div {
-  display: none;
-  max-width: 0;
-  max-height: 0;
-}
-.mobile-only-content img {
-  display: none;
-  width: 0;
-  height: 0;
-}
-.mobile-only-content a {
-  display: none;
-  width: 0;
-  height: 0;
-}
-*/
 /* ==========================================================================
 Development Ribbon
 ========================================================================== */
@@ -561,10 +544,14 @@ ui bootstrap tweaks
 .home {
     background: #fff;
     position: relative;
-    top: 90px;
+    top: 80px;
     min-width: 100%;
     text-align: center;
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 50px;
+    padding: 0;
 }
 .home div, img {
     display: inline-block;
@@ -575,7 +562,7 @@ ui bootstrap tweaks
     width: 100%;
     height: 800px;
     text-align: center;
-    background: url('/content/img/specials.jpg') no-repeat center center;
+    background: url('../img/specials.jpg') no-repeat center center;
     background-size: contain;
 }
 
@@ -612,7 +599,7 @@ ui bootstrap tweaks
     width: 100%;
     height: 1000px;
     text-align: center;
-    background: url('/content/img/schaman.jpg') no-repeat center center;
+    background: url('../img/schaman.jpg') no-repeat center center;
     background-size: contain;
 }
 
@@ -810,7 +797,7 @@ ui bootstrap tweaks
 .portfolio-box:focus {
     outline: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 778px) {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
         font-size: 16px;
     }
