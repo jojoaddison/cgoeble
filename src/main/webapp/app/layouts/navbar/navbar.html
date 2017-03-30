@@ -33,7 +33,46 @@
                 </a>
             </div>
 
+            <div class="row pad"  ng-switch-when="false">
+                <a ui-sref="about" ng-click="vm.hideMenuItems()" class="chameleon-sketch text">
+                    <h6 class="chameleon-sketch">About</h6>
+                </a>
+            </div>
+            <div class="row pad"  ng-switch-when="true" has-authority="ROLE_BONJOUR">
+                <a ui-sref="bonjour-about" ng-click="vm.hideMenuItems()" class="chameleon-sketch text">
+                    <h6 class="chameleon-sketch">About</h6>
+                </a>
+            </div>
+            <div class="row pad"  ng-switch-when="true" has-authority="ROLE_BUONJIORNO">
+                <a ui-sref="buonjiorno-about" ng-click="vm.hideMenuItems()" class="chameleon-sketch text">
+                    <h6 class="chameleon-sketch">About</h6>
+                </a>
+            </div>
 
+            <div class="row pad">
+                <a ui-sref="contact" ng-click="vm.hideMenuItems()" class="chameleon-sketch text">
+                    <h6 class="chameleon-sketch">Kontakt</h6>
+                </a>
+            </div>
+
+            <div class="row pad" >
+                <a ui-sref="impressum" ng-click="vm.hideMenuItems()" class="chameleon-sketch text">
+                    <h6 class="chameleon-sketch">Impressum</h6>
+                </a>
+            </div>
+            <!--
+            <div class="row pad" ng-switch-when="false">
+                <a ui-sref="buonjiorno-login" ng-click="vm.hideMenuItems()" class="chameleon-sketch text" >
+                    <h6 class="chameleon-sketch">Schamanismus</h6>
+                </a>
+            </div>
+            <div class="row pad" ng-switch-when="true" has-authority="ROLE_BUONJIORNO">
+                <a ui-sref="buonjiorno" ng-click="vm.hideMenuItems()" class="chameleon-sketch text" >
+                    <h6 class="chameleon-sketch">Schamanismus</h6>
+                </a>
+            </div>
+
+            -->
 
             <div class="row pad" ng-switch-when="false">
                 <a ui-sref="bonjour-login" ng-click="vm.hideMenuItems()" class="chameleon-sketch text">
@@ -47,49 +86,15 @@
                 </a>
             </div>
 
-            <!--
-            <div class="row pad" ng-switch-when="false">
-                <a ui-sref="buonjiorno-login" ng-click="vm.hideMenuItems()" class="chameleon-sketch text" >
-                    <h6 class="chameleon-sketch">Schamanismus</h6>
-                </a>
-            </div>
-            -->
-            <div class="row pad" ng-switch-when="true" has-authority="ROLE_BUONJIORNO">
-                <a ui-sref="buonjiorno" ng-click="vm.hideMenuItems()" class="chameleon-sketch text" >
-                    <h6 class="chameleon-sketch">Schamanismus</h6>
-                </a>
-            </div>
-
-            <div class="row pad"  ng-switch-when="false">
-              <a ui-sref="about" ng-click="vm.hideMenuItems()" class="chameleon-sketch text">
-                  <h6 class="chameleon-sketch">About</h6>
-              </a>
-            </div>
-            <div class="row pad"  ng-switch-when="true" has-authority="ROLE_BONJOUR">
-                <a ui-sref="bonjour-about" ng-click="vm.hideMenuItems()" class="chameleon-sketch text">
-                    <h6 class="chameleon-sketch">About</h6>
-                </a>
-            </div>
-            <div class="row pad"  ng-switch-when="true" has-authority="ROLE_BUONJIORNO">
-                <a ui-sref="buonjiorno-about" ng-click="vm.hideMenuItems()" class="chameleon-sketch text">
-                    <h6 class="chameleon-sketch">About</h6>
-                </a>
-            </div>
-            <div class="row pad">
-              <a ui-sref="contact" ng-click="vm.hideMenuItems()" class="chameleon-sketch text">
-                  <h6 class="chameleon-sketch">Kontakt</h6>
-              </a>
-            </div>
-
-            <div class="row pad" >
-                <a ui-sref="impressum" ng-click="vm.hideMenuItems()" class="chameleon-sketch text">
-                    <h6 class="chameleon-sketch">Impressum</h6>
-                </a>
-            </div>
-
             <div class="row pad" ng-switch-when="true">
                 <a ng-click="vm.logout()" ng-click="vm.hideMenuItems()" class="chameleon-sketch text">
                     <h6 class="chameleon-sketch">Logout</h6>
+                </a>
+            </div>
+
+            <div class="row pad" ng-switch-when="false">
+                <a ui-sref="dashboard" ng-click="vm.hideMenuItems()" class="chameleon-sketch text">
+                    <h6 class="chameleon-sketch">Dashboard</h6>
                 </a>
             </div>
 

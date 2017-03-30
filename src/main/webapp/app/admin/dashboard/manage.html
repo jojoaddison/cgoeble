@@ -1,0 +1,31 @@
+<div class="container-fluid  voffset9 no-padding wrapper">
+    <form name="editForm" role="form" novalidate ng-submit="vm.save()">
+
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"
+                    ng-click="vm.clear()">&times;</button>
+            <h1 class="page-header">{{vm.widget.title}} version-{{vm.widget.version}}</h1>
+        </div>
+        <div class="modal-body">
+            <jhi-alert-error></jhi-alert-error>
+
+            <div class="form-group">
+                <textarea ui-tinymce="vm.editorOptions" id="widgetEditor" ng-model="vm.widget.content"  ng-cloak></textarea>
+            </div>
+
+        </div>
+        <div class="modal-footer">
+            <button type="submit" ui-sref="widget.delete({id: vm.widget.id})" class="btn btn-danger" data-dismiss="modal" ng-click="vm.clear()" ng-if="vm.widget.id!=null">
+                <span class="glyphicon glyphicon-ban-circle"></span>&nbsp;<span data-translate="entity.action.delete">Delete</span>
+            </button>
+            <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="vm.clear()">
+                <span class="glyphicon glyphicon-ban-circle"></span>&nbsp;<span data-translate="entity.action.cancel">Cancel</span>
+            </button>
+            <button type="submit" ng-disabled="editForm.$invalid || vm.isSaving" class="btn btn-primary">
+                <span class="glyphicon glyphicon-save"></span>&nbsp;<span data-translate="entity.action.save">Save</span>
+            </button>
+        </div>
+    </form>
+
+</div>
+
